@@ -575,26 +575,26 @@
     <div class="card">
         <div class="card1">
             <h2 class="blue1">General Liability</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur <br> sadipscing elitr, sed diam nonumy <br> eirmod tempor invidunt ut labore et…</p>
-            <a href="">Read more</a> <br>
+            <p>Lorem ipsum dolor sit amet, consetetur <br> sadipscing elitr, sed diam nonumy <br> eirmod tempor invidunt ut labore et… <br> <a href="">Read more</a></p>
+             <br>
             <button>Get A Qoute</button>
         </div>
         <div class="card2">
             <h2 class="blue2">Fiduciary Liability</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur <br> sadipscing elitr, sed diam nonumy <br> eirmod tempor invidunt ut labore et…</p>
-            <a href="">Read more</a> <br>
+            <p>Lorem ipsum dolor sit amet, consetetur <br> sadipscing elitr, sed diam nonumy <br> eirmod tempor invidunt ut labore et… <br> <a href="">Read more</a></p>
+             <br>
             <button>Get A Qoute</button>
         </div>
         <div class="card3">
             <h2 class="blue3">Employment Practices Liability</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur <br> sadipscing elitr, sed diam nonumy <br> eirmod tempor invidunt ut labore et…</p>
-            <a href="">Read more</a> <br>
+            <p>Lorem ipsum dolor sit amet, consetetur <br> sadipscing elitr, sed diam nonumy <br> eirmod tempor invidunt ut labore et… <br> <a href="">Read more</a></p>
+             <br>
             <button>Get A Qoute</button>
         </div>
         <div class="card4">
             <h2 class="blue4">Errors & Omissions</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur <br> sadipscing elitr, sed diam nonumy <br> eirmod tempor invidunt ut labore et…</p>
-            <a href="">Read more</a> <br>
+            <p>Lorem ipsum dolor sit amet, consetetur <br> sadipscing elitr, sed diam nonumy <br> eirmod tempor invidunt ut labore et… <br> <a href="">Read more</a> <br></p>
+            
             <button>Get A Qoute</button>
         </div>
     </div>
@@ -787,10 +787,10 @@ Logo" transform="translate(1242 2790)" fill="#006272" font-size="41" font-family
 
     <div class="public-review">
         <h2>Word On The Street</h2>
-
+    </div>
         <div class="cards">
 
-                        <div class="fourthcard">
+                        <div class="firstcard">
                 <svg xmlns="http://www.w3.org/2000/svg" width="34.705" height="30.648" viewBox="0 0 34.705 30.648">
                     <g id="Group_19210" data-name="Group 19210" transform="translate(0 0)">
                         <path id="Path_59922" data-name="Path 59922" d="M4102.615,639.25c.043-.629.089-1.258.13-1.887a27.275,27.275,0,0,1,.9-5.741,14.987,14.987,0,0,1,4.243-6.816,19.532,19.532,0,0,1,5.8-3.744,1.759,1.759,0,0,1,2.4.879q.639,1.288,1.231,2.6a1.765,1.765,0,0,1-.953,2.5,13.07,13.07,0,0,0-3.117,1.951,8.839,8.839,0,0,0-2.822,4.977c-.216,1.021-.308,2.068-.462,3.155.221.01.338.02.457.02,1.536,0,3.073,0,4.609,0a1.788,1.788,0,0,1,1.96,1.952q0,5.236,0,10.473a1.8,1.8,0,0,1-1.966,1.953c-3.367,0-6.734-.023-10.1.014a2.086,2.086,0,0,1-2.312-1.436Z" transform="translate(-4102.615 -620.886)" fill="#8f9ecc"/>
@@ -808,7 +808,7 @@ Logo" transform="translate(1242 2790)" fill="#006272" font-size="41" font-family
             </div>
         
             
-            <div class="thirdcard">
+            <div class="secondcard">
                 <svg xmlns="http://www.w3.org/2000/svg" width="34.705" height="30.648" viewBox="0 0 34.705 30.648">
                     <g id="Group_19210" data-name="Group 19210" transform="translate(0 0)">
                         <path id="Path_59922" data-name="Path 59922" d="M4102.615,639.25c.043-.629.089-1.258.13-1.887a27.275,27.275,0,0,1,.9-5.741,14.987,14.987,0,0,1,4.243-6.816,19.532,19.532,0,0,1,5.8-3.744,1.759,1.759,0,0,1,2.4.879q.639,1.288,1.231,2.6a1.765,1.765,0,0,1-.953,2.5,13.07,13.07,0,0,0-3.117,1.951,8.839,8.839,0,0,0-2.822,4.977c-.216,1.021-.308,2.068-.462,3.155.221.01.338.02.457.02,1.536,0,3.073,0,4.609,0a1.788,1.788,0,0,1,1.96,1.952q0,5.236,0,10.473a1.8,1.8,0,0,1-1.966,1.953c-3.367,0-6.734-.023-10.1.014a2.086,2.086,0,0,1-2.312-1.436Z" transform="translate(-4102.615 -620.886)" fill="#8f9ecc"/>
@@ -824,7 +824,7 @@ Logo" transform="translate(1242 2790)" fill="#006272" font-size="41" font-family
                 
             </div>
 
-            <div class="secondcard">
+            <div class="thirdcard">
                 <svg xmlns="http://www.w3.org/2000/svg" width="34.705" height="30.648" viewBox="0 0 34.705 30.648">
                     <g id="Group_19210" data-name="Group 19210" transform="translate(0 0)">
                         <path id="Path_59922" data-name="Path 59922" d="M4102.615,639.25c.043-.629.089-1.258.13-1.887a27.275,27.275,0,0,1,.9-5.741,14.987,14.987,0,0,1,4.243-6.816,19.532,19.532,0,0,1,5.8-3.744,1.759,1.759,0,0,1,2.4.879q.639,1.288,1.231,2.6a1.765,1.765,0,0,1-.953,2.5,13.07,13.07,0,0,0-3.117,1.951,8.839,8.839,0,0,0-2.822,4.977c-.216,1.021-.308,2.068-.462,3.155.221.01.338.02.457.02,1.536,0,3.073,0,4.609,0a1.788,1.788,0,0,1,1.96,1.952q0,5.236,0,10.473a1.8,1.8,0,0,1-1.966,1.953c-3.367,0-6.734-.023-10.1.014a2.086,2.086,0,0,1-2.312-1.436Z" transform="translate(-4102.615 -620.886)" fill="#8f9ecc"/>
@@ -841,7 +841,6 @@ Logo" transform="translate(1242 2790)" fill="#006272" font-size="41" font-family
             </div>
 
 
-        </div>
         
     </div>
 
@@ -1071,7 +1070,43 @@ Logo" transform="translate(1242 2790)" fill="#006272" font-size="41" font-family
 .card1 .card2 .card3 .card4 {
     display: flex;
     flex-direction: column;
+    
 }
+
+.card1 h2 {
+    color: var(--unnamed-color-1d1b1d);
+    text-align: left;
+    font: normal normal bold 25px/34px Nunito Sans;
+    letter-spacing: 0.2px;
+    color: #1D1B1D;
+    opacity: 1;
+    }
+.card2 h2 {
+    color: var(--unnamed-color-1d1b1d);
+    text-align: left;
+    font: normal normal bold 25px/34px Nunito Sans;
+    letter-spacing: 0.2px;
+    color: #1D1B1D;
+    opacity: 1;
+    }
+.card3 h2 {
+    color: var(--unnamed-color-1d1b1d);
+    text-align: left;
+    font: normal normal bold 25px/34px Nunito Sans;
+    letter-spacing: 0.2px;
+    color: #1D1B1D;
+    opacity: 1;
+    padding-bottom: 2rem;
+    }
+.card4 h2 {
+    color: var(--unnamed-color-1d1b1d);
+    text-align: left;
+    font: normal normal bold 25px/34px Nunito Sans;
+    letter-spacing: 0.2px;
+    color: #1D1B1D;
+    opacity: 1;
+    }
+
 
 .card1 p {
     margin-left: 3%;
@@ -1080,7 +1115,12 @@ Logo" transform="translate(1242 2790)" fill="#006272" font-size="41" font-family
     letter-spacing: 0.14px;
     color: #1D1B1D;
     opacity: 1;
+    border: none;
     background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 64px #6E6E552B;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 1rem;
 }
 .card2 p {
     margin-left: 3%;
@@ -1088,7 +1128,11 @@ Logo" transform="translate(1242 2790)" fill="#006272" font-size="41" font-family
     font: normal normal normal 18px/24px Nunito Sans;
     letter-spacing: 0.14px;
     color: #1D1B1D;
+    opacity: 1;background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 64px #6E6E552B;
+    border-radius: 10px;
     opacity: 1;
+    padding: 1rem;
 }
 .card3 p {
     margin-left: 3%;
@@ -1097,6 +1141,11 @@ Logo" transform="translate(1242 2790)" fill="#006272" font-size="41" font-family
     letter-spacing: 0.14px;
     color: #1D1B1D;
     opacity: 1;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 64px #6E6E552B;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 1rem;
 }
 .card4 p {
     margin-left: 3%;
@@ -1105,6 +1154,11 @@ Logo" transform="translate(1242 2790)" fill="#006272" font-size="41" font-family
     letter-spacing: 0.14px;
     color: #1D1B1D;
     opacity: 1;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 64px #6E6E552B;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 1.7rem;
 }
 
 .card1 a {
@@ -1114,7 +1168,6 @@ Logo" transform="translate(1242 2790)" fill="#006272" font-size="41" font-family
     letter-spacing: 0.13px;
     color: #006272;
     opacity: 1;
-    margin-left: 3%;
 }
 .card2 a {
     text-align: left;
@@ -1123,7 +1176,6 @@ Logo" transform="translate(1242 2790)" fill="#006272" font-size="41" font-family
     letter-spacing: 0.13px;
     color: #006272;
     opacity: 1;
-    margin-left: 3%;
 }
 .card3 a {
     text-align: left;
@@ -1132,7 +1184,6 @@ Logo" transform="translate(1242 2790)" fill="#006272" font-size="41" font-family
     letter-spacing: 0.13px;
     color: #006272;
     opacity: 1;
-    margin-left: 3%;
 }
 .card4 a {
     text-align: left;
@@ -1141,7 +1192,6 @@ Logo" transform="translate(1242 2790)" fill="#006272" font-size="41" font-family
     letter-spacing: 0.13px;
     color: #006272;
     opacity: 1;
-    margin-left: 3%;
 }
 
 .card1 button {
@@ -1158,7 +1208,6 @@ Logo" transform="translate(1242 2790)" fill="#006272" font-size="41" font-family
     opacity: 1;
     justify-content: center;
     padding: 0.2rem 5rem;
-    margin-top: 5%;
 }
 .card2 button {
     margin-left: 13%;
@@ -1174,7 +1223,6 @@ Logo" transform="translate(1242 2790)" fill="#006272" font-size="41" font-family
     opacity: 1;
     justify-content: center;
     padding: 0.2rem 5rem;
-    margin-top: 5%;
 }
 .card3 button {
     margin-left: 13%;
@@ -1190,7 +1238,6 @@ Logo" transform="translate(1242 2790)" fill="#006272" font-size="41" font-family
     opacity: 1;
     justify-content: center;
     padding: 0.2rem 5rem;
-    margin-top: 5%;
 }
 .card4 button {
     margin-left: 13%;
@@ -1206,8 +1253,6 @@ Logo" transform="translate(1242 2790)" fill="#006272" font-size="41" font-family
     opacity: 1;
     justify-content: center;
     padding: 0.2rem 5rem;
-    margin-top: 5%;
-    
 }
 .blue1 {
     display: flex;
@@ -1494,9 +1539,9 @@ Logo" transform="translate(1242 2790)" fill="#006272" font-size="41" font-family
 }
 
 .public-review{
-    /* display: flex; */
-    /* flex-direction: row; */
-    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
     margin-left: 5%;
     margin-top: 5%;
 }
@@ -1520,6 +1565,7 @@ opacity: 1;
 }
 
 .freq-que h2 {
+    margin-top: 5%;
     text-align: center;
     font: normal normal 40px/60px Ubuntu;
     font-weight: 400;
@@ -1618,6 +1664,7 @@ opacity: 1;
 .cards {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .firstcard {
@@ -1625,24 +1672,33 @@ opacity: 1;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 10px;
     opacity: 1;  
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 64px #6E6E552B;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 1rem;
 }
 .secondcard {
     padding: 2rem;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 10px;
     opacity: 1;  
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 64px #6E6E552B;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 1rem;
 }
 .thirdcard {
     padding: 2rem;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 10px;
     opacity: 1;  
-}
-.fourthcard {
-    padding: 2rem;
     background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 64px #6E6E552B;
     border-radius: 10px;
-    opacity: 1;  
+    opacity: 1;
+    padding: 1rem;
 }
 
 .firstcard svg {
