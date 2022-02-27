@@ -1,0 +1,20 @@
+<svg width="587.894" height="317.344" viewBox="0 0 587.894 317.344" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="Path_60625" x="0" y="0" width="587.894" height="317.344" filterUnits="userSpaceOnUse">
+      <feOffset dy="30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="40" result="blur"/>
+      <feFlood flood-color="#dbdbb2" flood-opacity="0.404"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_19462" data-name="Group 19462" transform="translate(-695.998 -2473.792)">
+    <g transform="matrix(1, 0, 0, 1, 696, 2473.79)" filter="url(#Path_60625)">
+      <path id="Path_60625-2" data-name="Path 60625" d="M272.1,465.3l347.894.293v75.6l-338.987,1.454Z" transform="translate(-152.1 -375.3)" fill="#fff"/>
+    </g>
+    <path id="Frame" d="M326,594.261c-.992,0-1.769-.207-1.812-.472L315.3,514.807c0-.127.173-.253.518-.357a5.311,5.311,0,0,1,1.294-.15h0l347.115.3c.992,0,1.812.219,1.812.484v77.2c0,.265-.777.484-1.812.484L326,594.261Zm-7.032-78.971,8.8,78,334.647-1.474V515.578Z" transform="translate(513.998 2064.576)" fill="#000200"/>
+  </g>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 13.6px; font-weight: 700; white-space: pre;" transform="matrix(1.145205, 0, 0, 1.321379, -29.954201, -40.833836)" x="239.706" y="139.263">Instant Claim Processing</text>
+  <path id="Path_60760" data-name="Path 60760" d="M 166.934 120.836 L 198.934 120.836 L 198.934 152.836 L 166.934 152.836 L 166.934 120.836 Z" fill="none"/>
+  <path id="Path_60761" data-name="Path 60761" d="M 182.921 123.503 C 172.657 123.514 166.254 134.632 171.395 143.515 C 176.536 152.398 189.366 152.385 194.488 143.491 C 195.654 141.467 196.268 139.172 196.268 136.836 C 196.271 129.466 190.291 123.492 182.921 123.503 Z M 182.934 147.503 C 174.722 147.503 169.59 138.614 173.696 131.503 C 177.802 124.392 188.066 124.392 192.172 131.503 C 193.108 133.124 193.601 134.964 193.601 136.836 C 193.602 142.728 188.826 147.505 182.934 147.503 Z M 183.601 130.17 L 181.601 130.17 L 181.601 138.17 L 188.601 142.37 L 189.601 140.73 L 183.601 137.17 L 183.601 130.17 Z" fill="#ed6623"/>
+</svg>
