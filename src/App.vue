@@ -2431,11 +2431,11 @@ a {
 }
 
 .accordion-button::after {
-  background-image: url("../images/plus-icon.svg");
+  background-image: url("./assets/plus-icon.svg");
 }
 
 .accordion-button:not(.collapsed)::after {
-  background-image: url("../images/minus-icon.png");
+  background-image: url("./assets/minus-icon.png");
   transform: none;
 }
 
@@ -2466,21 +2466,21 @@ a {
 }
 
 .blog-top-header {
-  background: url("../images/blog-header.png"), var(--primary_color);
+  background: url("./assets/blog-header.png"), var(--primary_color);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
 }
 
 .faq-top-header {
-  background: url("../images/faq-header.png"), var(--primary_color);
+  background: url("./assets/faq-header.png"), var(--primary_color);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
 }
 
 .offer-top-header {
-  background: url("../images/offer-header.png"), #d9dbf1;
+  background: url("./assets/offer-header.png"), #d9dbf1;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
