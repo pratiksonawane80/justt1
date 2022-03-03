@@ -109,749 +109,137 @@
       </div>
     </nav>
 
-    <!-- Hero Sectionn -->
-    <section class="bg-yellow">
+    <!-- FAQ Header -->
+    <div class="top-header faq-top-header">
       <div class="container">
-        <div class="row center-align-wrapper">
-          <div class="col-md-5">
-            <h1 class="hero-heading main-heading">
-              <span>Secure</span> Your <span>Startup</span> <br />
-              Ensure Your <span>Success!</span>
-            </h1>
+        <div>
+          <h2>FAQs</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+          </p>
+        </div>
+      </div>
+    </div>
 
-            <p class="hero-subtext colored-text">
-              Lorem ipsum dolor sit amet, consetetur sadipscing <br />
-              elitr, sed diam nonumy eirmod tempor invidunt ut <br />
-              labore et dolore magna aliquyam
-            </p>
-
-            <div class="hero-btn-grp">
-              <div class="btn-group">
-                <button class="main-btn solid-btn">Get A Quote</button>
-                <button class="main-btn border-btn">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20.766"
-                    height="18.323"
-                    viewBox="0 0 20.766 18.323"
-                  >
-                    <path
-                      id="noun-headphone-4598927"
-                      d="M162.051,105a6.718,6.718,0,0,0-6.69,6.108h-.639a3.054,3.054,0,0,0-3.054,3.054v1.221a3.054,3.054,0,0,0,3.054,3.054h.745l.338,1.351a3.054,3.054,0,0,0,2.962,2.313h.334a1.833,1.833,0,0,0,1.728,1.221h2.443a1.832,1.832,0,1,0,0-3.665h-2.443a1.833,1.833,0,0,0-1.728,1.221h-.334a1.832,1.832,0,0,1-1.777-1.388l-.435-1.741v-6.032a5.5,5.5,0,0,1,10.994,0v6.108a.611.611,0,0,0,.611.611h1.221a3.054,3.054,0,0,0,3.054-3.054v-1.221a3.054,3.054,0,0,0-3.054-3.054h-.639a6.718,6.718,0,0,0-6.69-6.108Zm-6.718,7.329h-.611a1.832,1.832,0,0,0-1.832,1.832v1.221a1.832,1.832,0,0,0,1.832,1.832h.611Zm13.436,0v4.886h.611a1.832,1.832,0,0,0,1.832-1.832v-1.221a1.832,1.832,0,0,0-1.832-1.832Zm-8.55,9.161a.611.611,0,0,1,.611-.611h2.443a.611.611,0,0,1,0,1.222h-2.443A.611.611,0,0,1,160.219,121.49Z"
-                      transform="translate(-151.668 -105)"
-                      fill="#006272"
-                      fill-rule="evenodd"
-                    />
-                  </svg>
-                  Talk to our advisor
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-7">
-            <div class="hero-img">
-              <img src="./assets/hero.png" />
+    <!-- FAQ Section -->
+    <div class="main-section">
+      <div class="container">
+        <div class="faq-search-wrapper">
+          <div style="position: relative">
+            <input
+              type="search"
+              placeholder="Search Keyword"
+              class="form-control"
+            />
+            <div class="icon">
+              <img src="./assets/search-icon.png" />
             </div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Why Section -->
-    <section class="bg-white">
-      <div class="container">
-        <div class="row center-align-wrapper">
-          <div class="col-md-5">
-            <div>
-              <img src="./assets/why-section-img.png" />
-            </div>
-          </div>
-
-          <div class="col-md-7">
-            <p class="colored-text">Why should you get your company insured?</p>
-
-            <h2 class="main-heading secondary-heading">
-              More Than <strong>15,000 Companies Closed</strong> Nation-Wide
-              Just Due To
-              <strong>Liabilities, Breach & Commercial Crimes!</strong>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item custom-accordion">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                How do I get a Certificate of Insurance (COI)?
+              </button>
             </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is
+                shown by default, until the collapse plugin adds the appropriate
+                classes that we use to style each element. These classes control
+                the overall appearance, as well as the showing and hiding via
+                CSS transitions. You can modify any of this with custom CSS or
+                overriding our default variables. It's also worth noting that
+                just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
 
-            <p class="gray-text mtb-2">
-              In addition to this nearly 14,000 companies closed during COVID
-              pandemic. We have custom made premiums to protect your
-              organsiation from all this.
-            </p>
-
-            <div class="hero-btn-grp">
-              <button class="main-btn solid-btn">
-                we're just a click away
+          <div class="accordion-item custom-accordion">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                How do I make a claim?
               </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Steps Section -->
-    <section class="bg-yellow">
-      <div class="container">
-        <h3 class="main-heading section-heading text-center">
-          <strong>Secure</strong> Your Company In Just<br />
-          <strong>Few Simple Steps!</strong>
-        </h3>
-
-        <div class="glass-bg-img">
-          <div class="multimg">
-            <div class="row center-align-wrapper h-100">
-              <div class="col-md-3 steps step1">
-                <div><img src="./assets/step1.png" /></div>
-                <p class="colored-text">Fill up quick & simple form.</p>
-                <a href="" class="main-btn border-btn">Get a Quote</a>
-              </div>
-
-              <div class="col-md-3 steps step2">
-                <div><img src="./assets/step2.png" /></div>
-                <p class="colored-text">
-                  Get a call from expert to guide you <br />
-                  in understanding & choosing best <br />
-                  policy for your company.
-                </p>
-              </div>
-
-              <div class="col-md-3 steps step3">
-                <div><img src="./assets/step3.png" /></div>
-                <p class="colored-text">
-                  Get 24x7 support, request <br />
-                  endorsements, and initiate claims <br />
-                  through a simple online process.
-                </p>
-                <div class="advisor">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="21.766"
-                    height="19.323"
-                    viewBox="0 0 21.766 19.323"
-                  >
-                    <path
-                      id="noun-headphone-4598927"
-                      d="M162.051,105a6.718,6.718,0,0,0-6.69,6.108h-.639a3.054,3.054,0,0,0-3.054,3.054v1.221a3.054,3.054,0,0,0,3.054,3.054h.745l.338,1.351a3.054,3.054,0,0,0,2.962,2.313h.334a1.833,1.833,0,0,0,1.728,1.221h2.443a1.832,1.832,0,1,0,0-3.665h-2.443a1.833,1.833,0,0,0-1.728,1.221h-.334a1.832,1.832,0,0,1-1.777-1.388l-.435-1.741v-6.032a5.5,5.5,0,0,1,10.994,0v6.108a.611.611,0,0,0,.611.611h1.221a3.054,3.054,0,0,0,3.054-3.054v-1.221a3.054,3.054,0,0,0-3.054-3.054h-.639a6.718,6.718,0,0,0-6.69-6.108Zm-6.718,7.329h-.611a1.832,1.832,0,0,0-1.832,1.832v1.221a1.832,1.832,0,0,0,1.832,1.832h.611Zm13.436,0v4.886h.611a1.832,1.832,0,0,0,1.832-1.832v-1.221a1.832,1.832,0,0,0-1.832-1.832Zm-8.55,9.161a.611.611,0,0,1,.611-.611h2.443a.611.611,0,0,1,0,1.222h-2.443A.611.611,0,0,1,160.219,121.49Z"
-                      transform="translate(-151.168 -104.5)"
-                      fill="#23022e"
-                      stroke="#23022e"
-                      stroke-width="1"
-                    />
-                  </svg>
-                  <a href="#" class="text-link">Talk To Our Advisor</a>
-                </div>
-              </div>
-
-              <div class="col-md-3 steps step4">
-                <div><img src="./assets/step4.png" /></div>
-                <p class="colored-text">
-                  Ensure risk free growth of your company.
-                </p>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
               </div>
             </div>
           </div>
 
-          <div class="overlay"></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Policies Slider Section -->
-    <section class="bg-white">
-      <div class="container">
-        <h3 class="main-heading section-heading text-center">
-          Policies For Every Business!
-        </h3>
-      </div>
-
-      <div class="policy-slider-wrapper">
-        <div class="carousel" id="policySlider">
-          <div class="card card-wrapper">
-            <div class="card-body">
-              <div class="card-heading purple-card-heading">
-                <div class="card-heading-text">General Liability</div>
-              </div>
-
-              <div class="card-body-wrapper">
-                <p class="card-text poicy-card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus imperdiet, nulla et dictum interdum, nisi lorem
-                  egestas vitae scel<span id="dots">...</span
-                  ><span id="more">erisque enim ligula venenatis </span>
-                </p>
-                <a onclick="myFunction()" id="myBtn" class="read-more-link"
-                  >Read more</a
-                >
-              </div>
-              <a href="#" class="main-btn card-btn">Get A Quote</a>
-            </div>
-          </div>
-
-          <div class="card card-wrapper">
-            <div class="card-body">
-              <div class="card-heading light-purple-card-heading">
-                <div class="card-heading-text">Fiduciary Liability</div>
-              </div>
-              <div class="card-body-wrapper">
-                <p class="card-text poicy-card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus imperdiet, nulla et dictum interdum, nisi lorem
-                  egestas vitae scel...
-                </p>
-                <a onclick="myFunction()" id="myBtn" class="read-more-link"
-                  >Read more</a
-                >
-              </div>
-              <a href="#" class="main-btn card-btn">Get A Quote</a>
-            </div>
-          </div>
-
-          <div class="card card-wrapper">
-            <div class="card-body">
-              <div class="card-heading coral-card-heading">
-                <div class="card-heading-text">
-                  Employment Practices Liability
-                </div>
-              </div>
-              <div class="card-body-wrapper">
-                <p class="card-text poicy-card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus imperdiet, nulla et dictum interdum, nisi lorem
-                  egestas vitae scel...
-                </p>
-                <a onclick="myFunction()" id="myBtn" class="read-more-link"
-                  >Read more</a
-                >
-              </div>
-              <a href="#" class="main-btn card-btn">Get A Quote</a>
-            </div>
-          </div>
-
-          <div class="card card-wrapper">
-            <div class="card-body">
-              <div class="card-heading purple-card-heading">
-                <div class="card-heading-text">Errors & Omissions</div>
-              </div>
-              <div class="card-body-wrapper">
-                <p class="card-text poicy-card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus imperdiet, nulla et dictum interdum, nisi lorem
-                  egestas vitae scel...
-                </p>
-                <a onclick="myFunction()" id="myBtn" class="read-more-link"
-                  >Read more</a
-                >
-              </div>
-              <a href="#" class="main-btn card-btn">Get A Quote</a>
-            </div>
-          </div>
-
-          <div class="card card-wrapper">
-            <div class="card-body">
-              <div class="card-heading coral-card-heading">
-                <div class="card-heading-text">Error Liability</div>
-              </div>
-              <div class="card-body-wrapper">
-                <p class="card-text poicy-card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus imperdiet, nulla et dictum interdum, nisi lorem
-                  egestas vitae scel.....
-                </p>
-                <a onclick="myFunction()" id="myBtn" class="read-more-link"
-                  >Read more</a
-                >
-              </div>
-              <a href="#" class="main-btn card-btn">Get A Quote</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="bg-yellow">
-      <div class="container">
-        <div class="row center-align-wrapper">
-          <div class="col-md-5">
-            <h3 class="main-heading section-heading">
-              Why Choose <strong>Us?</strong>
-            </h3>
-            <p class="gray-text mtb-2">
-              With a continuously rise in our clientele we are insurance
-              partners of leading companies, seed funds & entrepreneurs.
-            </p>
-            <div class="hero-btn-grp">
-              <button class="main-btn solid-btn">
-                Talk To Our Expert Now!
+          <div class="accordion-item custom-accordion">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                How long do common requests take?
               </button>
-            </div>
-          </div>
-
-          <div class="col-md-7">
-            <div>
-              <img src="./assets/features.png" />
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- Partners Slider Section -->
-    <section class="bg-white">
-      <div class="container">
-        <h3 class="main-heading section-heading text-center">
-          Our Proud <strong>Partners!</strong>
-        </h3>
-        <p class="gray-text text-center">
-          With a continuously rise in our clientele we are insurance partners of
-          leading <br />
-          companies, seed funds & entrepreneurs.
-        </p>
-
-        <div class="partners-logo">
-          <div class="logos">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="236"
-              height="136"
-              viewBox="0 0 236 136"
-            >
-              <g
-                id="Group_19389"
-                data-name="Group 19389"
-                transform="translate(-1124 -2729)"
-              >
-                <g
-                  id="Rectangle_7074"
-                  data-name="Rectangle 7074"
-                  transform="translate(1124 2729)"
-                  fill="#fff"
-                  stroke="#006272"
-                  stroke-width="7"
-                >
-                  <rect width="236" height="136" rx="2" stroke="none" />
-                  <rect
-                    x="3.5"
-                    y="3.5"
-                    width="229"
-                    height="129"
-                    rx="1.5"
-                    fill="none"
-                  />
-                </g>
-                <text
-                  id="Company_Logo"
-                  data-name="Company
-Logo"
-                  transform="translate(1242 2790)"
-                  fill="#006272"
-                  font-size="41"
-                  font-family="Oswald-Medium, Oswald"
-                  font-weight="500"
-                  letter-spacing="0.012em"
-                >
-                  <tspan x="-79" y="0">COMPANY</tspan>
-                  <tspan x="-43" y="52">LOGO</tspan>
-                </text>
-              </g>
-            </svg>
-          </div>
-
-          <div class="logos">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="249"
-              height="51"
-              viewBox="0 0 249 51"
-            >
-              <text
-                id="Company_Logo"
-                data-name="Company Logo"
-                transform="translate(0 38)"
-                fill="#04565c"
-                font-size="38"
-                font-family="NunitoSans-SemiBold, Nunito Sans"
-                font-weight="600"
-                letter-spacing="0.012em"
-              >
-                <tspan x="0" y="0">company logo</tspan>
-              </text>
-            </svg>
-          </div>
-
-          <div class="logos">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="368"
-              height="74"
-              viewBox="0 0 368 74"
-            >
-              <g
-                id="Group_19388"
-                data-name="Group 19388"
-                transform="translate(-922 -2665)"
-              >
-                <rect
-                  id="Rectangle_7073"
-                  data-name="Rectangle 7073"
-                  width="368"
-                  height="74"
-                  rx="2"
-                  transform="translate(922 2665)"
-                  fill="#006272"
-                />
-                <text
-                  id="Company_Logo"
-                  data-name="Company Logo"
-                  transform="translate(1106 2716)"
-                  fill="#fff"
-                  font-size="44"
-                  font-family="NunitoSans-Bold, Nunito Sans"
-                  font-weight="700"
-                  letter-spacing="0.012em"
-                >
-                  <tspan x="-155" y="0">Company Logo</tspan>
-                </text>
-              </g>
-            </svg>
-          </div>
-
-          <div class="logos">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="225"
-              height="51"
-              viewBox="0 0 225 51"
-            >
-              <text
-                id="Company_Name"
-                data-name="Company Name"
-                transform="translate(0 41)"
-                fill="#006272"
-                font-size="34"
-                font-family="Oswald-Bold, Oswald"
-                font-weight="700"
-                letter-spacing="0.012em"
-              >
-                <tspan x="0" y="0">COMPANY NAME</tspan>
-              </text>
-            </svg>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonial Slider Section -->
-    <section class="bg-yellow">
-      <div class="container">
-        <h3 class="main-heading section-heading text-left mb-2">
-          <strong>Word</strong> On The Street
-        </h3>
-
-        <div style="position: relative">
-          <div class="testimonial-img hidden-mobile">
-            <img src="./assets/testimonial.png" />
-          </div>
-
-          <div
-            class="testimonial-img hidden-desktop show-mobile testimonial-img-mobile"
-          >
-            <img src="./assets/testimonial-mob-img.png" />
-          </div>
-
-          <div class="carousel testimonial-carousel" id="testimonialSlider">
-            <!-- <div class="item"> -->
-            <div class="firstcard">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="34.705"
-                height="30.648"
-                viewBox="0 0 34.705 30.648"
-              >
-                <g
-                  id="Group_19210"
-                  data-name="Group 19210"
-                  transform="translate(0 0)"
-                >
-                  <path
-                    id="Path_59922"
-                    data-name="Path 59922"
-                    d="M4102.615,639.25c.043-.629.089-1.258.13-1.887a27.275,27.275,0,0,1,.9-5.741,14.987,14.987,0,0,1,4.243-6.816,19.532,19.532,0,0,1,5.8-3.744,1.759,1.759,0,0,1,2.4.879q.639,1.288,1.231,2.6a1.765,1.765,0,0,1-.953,2.5,13.07,13.07,0,0,0-3.117,1.951,8.839,8.839,0,0,0-2.822,4.977c-.216,1.021-.308,2.068-.462,3.155.221.01.338.02.457.02,1.536,0,3.073,0,4.609,0a1.788,1.788,0,0,1,1.96,1.952q0,5.236,0,10.473a1.8,1.8,0,0,1-1.966,1.953c-3.367,0-6.734-.023-10.1.014a2.086,2.086,0,0,1-2.312-1.436Z"
-                    transform="translate(-4102.615 -620.886)"
-                    fill="#8f9ecc"
-                  />
-                  <path
-                    id="Path_59923"
-                    data-name="Path 59923"
-                    d="M3666.143,637.427h.386q2.287,0,4.575,0a1.79,1.79,0,0,1,1.971,1.974q0,5.219,0,10.438a1.794,1.794,0,0,1-1.952,1.965q-5.236,0-10.472,0a1.8,1.8,0,0,1-1.952-1.937c0-3.22-.021-6.44.019-9.659a36.821,36.821,0,0,1,.712-7.133,15.01,15.01,0,0,1,4.591-8,20.1,20.1,0,0,1,5.712-3.7,1.777,1.777,0,0,1,2.466.909c.4.821.79,1.648,1.176,2.476a1.776,1.776,0,0,1-.913,2.563,13.068,13.068,0,0,0-3.144,1.971,9.094,9.094,0,0,0-2.819,4.982A13.582,13.582,0,0,0,3666.143,637.427Z"
-                    transform="translate(-3638.898 -621.172)"
-                    fill="#8f9ecc"
-                  />
-                </g>
-              </svg>
-
-              <p>
-                Lorem ipsum dolor sit amet, <br />
-                consetetur sadipscing <br />
-                elitr, sed diam nonumy eirmod tempor invidunt ut.
-              </p>
-
-              <div class="flex-wrapper" style="margin: 3rem 0 1rem">
-                <div>
-                  <span class="user-img">
-                    <img src="./assets/user.jpg" alt="img" />
-                  </span>
-                </div>
-
-                <div>
-                  <div>Sejal Gupta</div>
-                  <div>CEO, ABC Company</div>
-                </div>
-              </div>
-            </div>
-            <!-- </div> -->
-            <!-- <div class="item"> -->
-            <div class="secondcard">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="34.705"
-                height="30.648"
-                viewBox="0 0 34.705 30.648"
-              >
-                <g
-                  id="Group_19210"
-                  data-name="Group 19210"
-                  transform="translate(0 0)"
-                >
-                  <path
-                    id="Path_59922"
-                    data-name="Path 59922"
-                    d="M4102.615,639.25c.043-.629.089-1.258.13-1.887a27.275,27.275,0,0,1,.9-5.741,14.987,14.987,0,0,1,4.243-6.816,19.532,19.532,0,0,1,5.8-3.744,1.759,1.759,0,0,1,2.4.879q.639,1.288,1.231,2.6a1.765,1.765,0,0,1-.953,2.5,13.07,13.07,0,0,0-3.117,1.951,8.839,8.839,0,0,0-2.822,4.977c-.216,1.021-.308,2.068-.462,3.155.221.01.338.02.457.02,1.536,0,3.073,0,4.609,0a1.788,1.788,0,0,1,1.96,1.952q0,5.236,0,10.473a1.8,1.8,0,0,1-1.966,1.953c-3.367,0-6.734-.023-10.1.014a2.086,2.086,0,0,1-2.312-1.436Z"
-                    transform="translate(-4102.615 -620.886)"
-                    fill="#8f9ecc"
-                  />
-                  <path
-                    id="Path_59923"
-                    data-name="Path 59923"
-                    d="M3666.143,637.427h.386q2.287,0,4.575,0a1.79,1.79,0,0,1,1.971,1.974q0,5.219,0,10.438a1.794,1.794,0,0,1-1.952,1.965q-5.236,0-10.472,0a1.8,1.8,0,0,1-1.952-1.937c0-3.22-.021-6.44.019-9.659a36.821,36.821,0,0,1,.712-7.133,15.01,15.01,0,0,1,4.591-8,20.1,20.1,0,0,1,5.712-3.7,1.777,1.777,0,0,1,2.466.909c.4.821.79,1.648,1.176,2.476a1.776,1.776,0,0,1-.913,2.563,13.068,13.068,0,0,0-3.144,1.971,9.094,9.094,0,0,0-2.819,4.982A13.582,13.582,0,0,0,3666.143,637.427Z"
-                    transform="translate(-3638.898 -621.172)"
-                    fill="#8f9ecc"
-                  />
-                </g>
-              </svg>
-
-              <p>
-                Lorem ipsum dolor sit amet, <br />
-                consetetur sadipscing <br />
-                elitr, sed diam nonumy eirmod tempor invidunt ut.
-              </p>
-
-              <div class="flex-wrapper" style="margin: 3rem 0 1rem">
-                <div>
-                  <span class="user-img">
-                    <img src="./assets/user.jpg" alt="img" />
-                  </span>
-                </div>
-
-                <div>
-                  <div>Sweta Shinde</div>
-                  <div>Director, XYZ Company</div>
-                </div>
-              </div>
-            </div>
-            <!-- </div> -->
-            <!-- <div class="item"> -->
-            <div class="thirdcard">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="34.705"
-                height="30.648"
-                viewBox="0 0 34.705 30.648"
-              >
-                <g
-                  id="Group_19210"
-                  data-name="Group 19210"
-                  transform="translate(0 0)"
-                >
-                  <path
-                    id="Path_59922"
-                    data-name="Path 59922"
-                    d="M4102.615,639.25c.043-.629.089-1.258.13-1.887a27.275,27.275,0,0,1,.9-5.741,14.987,14.987,0,0,1,4.243-6.816,19.532,19.532,0,0,1,5.8-3.744,1.759,1.759,0,0,1,2.4.879q.639,1.288,1.231,2.6a1.765,1.765,0,0,1-.953,2.5,13.07,13.07,0,0,0-3.117,1.951,8.839,8.839,0,0,0-2.822,4.977c-.216,1.021-.308,2.068-.462,3.155.221.01.338.02.457.02,1.536,0,3.073,0,4.609,0a1.788,1.788,0,0,1,1.96,1.952q0,5.236,0,10.473a1.8,1.8,0,0,1-1.966,1.953c-3.367,0-6.734-.023-10.1.014a2.086,2.086,0,0,1-2.312-1.436Z"
-                    transform="translate(-4102.615 -620.886)"
-                    fill="#8f9ecc"
-                  />
-                  <path
-                    id="Path_59923"
-                    data-name="Path 59923"
-                    d="M3666.143,637.427h.386q2.287,0,4.575,0a1.79,1.79,0,0,1,1.971,1.974q0,5.219,0,10.438a1.794,1.794,0,0,1-1.952,1.965q-5.236,0-10.472,0a1.8,1.8,0,0,1-1.952-1.937c0-3.22-.021-6.44.019-9.659a36.821,36.821,0,0,1,.712-7.133,15.01,15.01,0,0,1,4.591-8,20.1,20.1,0,0,1,5.712-3.7,1.777,1.777,0,0,1,2.466.909c.4.821.79,1.648,1.176,2.476a1.776,1.776,0,0,1-.913,2.563,13.068,13.068,0,0,0-3.144,1.971,9.094,9.094,0,0,0-2.819,4.982A13.582,13.582,0,0,0,3666.143,637.427Z"
-                    transform="translate(-3638.898 -621.172)"
-                    fill="#8f9ecc"
-                  />
-                </g>
-              </svg>
-
-              <p>
-                Lorem ipsum dolor sit amet, <br />
-                consetetur sadipscing <br />
-                elitr, sed diam nonumy eirmod tempor invidunt ut.
-              </p>
-
-              <div class="flex-wrapper" style="margin: 3rem 0 1rem">
-                <div>
-                  <span class="user-img">
-                    <img src="./assets/user.jpg" alt="img" />
-                  </span>
-                </div>
-
-                <div>
-                  <div>Sweta Shinde</div>
-                  <div>Director, XYZ Company</div>
-                </div>
-              </div>
-            </div>
-            <!-- </div> -->
-            <!-- <div class="item"> -->
-            <div class="thirdcard">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="34.705"
-                height="30.648"
-                viewBox="0 0 34.705 30.648"
-              >
-                <g
-                  id="Group_19210"
-                  data-name="Group 19210"
-                  transform="translate(0 0)"
-                >
-                  <path
-                    id="Path_59922"
-                    data-name="Path 59922"
-                    d="M4102.615,639.25c.043-.629.089-1.258.13-1.887a27.275,27.275,0,0,1,.9-5.741,14.987,14.987,0,0,1,4.243-6.816,19.532,19.532,0,0,1,5.8-3.744,1.759,1.759,0,0,1,2.4.879q.639,1.288,1.231,2.6a1.765,1.765,0,0,1-.953,2.5,13.07,13.07,0,0,0-3.117,1.951,8.839,8.839,0,0,0-2.822,4.977c-.216,1.021-.308,2.068-.462,3.155.221.01.338.02.457.02,1.536,0,3.073,0,4.609,0a1.788,1.788,0,0,1,1.96,1.952q0,5.236,0,10.473a1.8,1.8,0,0,1-1.966,1.953c-3.367,0-6.734-.023-10.1.014a2.086,2.086,0,0,1-2.312-1.436Z"
-                    transform="translate(-4102.615 -620.886)"
-                    fill="#8f9ecc"
-                  />
-                  <path
-                    id="Path_59923"
-                    data-name="Path 59923"
-                    d="M3666.143,637.427h.386q2.287,0,4.575,0a1.79,1.79,0,0,1,1.971,1.974q0,5.219,0,10.438a1.794,1.794,0,0,1-1.952,1.965q-5.236,0-10.472,0a1.8,1.8,0,0,1-1.952-1.937c0-3.22-.021-6.44.019-9.659a36.821,36.821,0,0,1,.712-7.133,15.01,15.01,0,0,1,4.591-8,20.1,20.1,0,0,1,5.712-3.7,1.777,1.777,0,0,1,2.466.909c.4.821.79,1.648,1.176,2.476a1.776,1.776,0,0,1-.913,2.563,13.068,13.068,0,0,0-3.144,1.971,9.094,9.094,0,0,0-2.819,4.982A13.582,13.582,0,0,0,3666.143,637.427Z"
-                    transform="translate(-3638.898 -621.172)"
-                    fill="#8f9ecc"
-                  />
-                </g>
-              </svg>
-
-              <p>
-                Lorem ipsum dolor sit amet, <br />
-                consetetur sadipscing <br />
-                elitr, sed diam nonumy eirmod tempor invidunt ut.
-              </p>
-
-              <div class="flex-wrapper" style="margin: 3rem 0 1rem">
-                <div>
-                  <span class="user-img">
-                    <img src="./assets/user.jpg" alt="img" />
-                  </span>
-                </div>
-
-                <div>
-                  <div>Sweta Shinde</div>
-                  <div>Director, XYZ Company</div>
-                </div>
-              </div>
-            </div>
-            <!-- </div> -->
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="bg-yellow">
-      <div class="container">
-        <h3 class="main-heading section-heading text-center">
-          Frequently Asked Questions
-        </h3>
-
-        <div class="claimbox1">
-          <div class="claim-wrapper">
-            <h5>How do I make a claim?</h5>
-            <p>
-              If you have a loss to report, or have a situation you believe
-              would be <br />
-              covered under your insurance policy, the first step is to report
-              the matter <br />
-              to Justt as soon as possible. There are a few ways you can report
-              a claim <br />
-              to us: <br />
-              <br />
-              Online in the Member Portal <br />
-              By telephone: 1234567890 (press 1, then 1 to submit a claim)…
-            </p>
-            <p class="readmore">Read more</p>
-          </div>
-
-          <div class="claim-wrapper">
-            <h5>How do I make a claim?</h5>
-            <p>
-              If you have a loss to report, or have a situation you believe
-              would be <br />
-              covered under your insurance policy, the first step is to report
-              the matter <br />
-              to Justt as soon as possible. There are a few ways you can report
-              a claim <br />
-              to us: <br />
-              <br />
-              Online in the Member Portal <br />
-              By telephone: 1234567890 (press 1, then 1 to submit a claim)…
-            </p>
-            <p class="readmore">Read more</p>
-          </div>
-        </div>
-
-        <div class="claimbox2">
-          <div class="claim-wrapper">
-            <h5>How do I make a claim?</h5>
-            <p>
-              If you have a loss to report, or have a situation you believe
-              would be <br />
-              covered under your insurance policy, the first step is to report
-              the matter <br />
-              to Justt as soon as possible. There are a few ways you can report
-              a claim <br />
-              to us: <br />
-              <br />
-              Online in the Member Portal <br />
-              By telephone: 1234567890 (press 1, then 1 to submit a claim)…
-            </p>
-            <p class="readmore">Read more</p>
-          </div>
-          <div class="claim-wrapper">
-            <h5>How do I make a claim?</h5>
-            <p>
-              If you have a loss to report, or have a situation you believe
-              would be <br />
-              covered under your insurance policy, the first step is to report
-              the matter <br />
-              to Justt as soon as possible. There are a few ways you can report
-              a claim <br />
-              to us: <br />
-              <br />
-              Online in the Member Portal <br />
-              By telephone: 1234567890 (press 1, then 1 to submit a claim)…
-            </p>
-            <p class="readmore">Read more</p>
-          </div>
-        </div>
-
-        <div class="looking">
-          <h6>Didn’t find what you are looking for?</h6>
-          <a class="faq" href="">See all FAQs</a>
-        </div>
-      </div>
-    </section>
+    </div>
 
     <!-- Footer -->
     <footer class="footer">
@@ -2431,11 +1819,11 @@ a {
 }
 
 .accordion-button::after {
-  background-image: url("../images/plus-icon.svg");
+  background-image: url("./assets/plus-icon.svg");
 }
 
 .accordion-button:not(.collapsed)::after {
-  background-image: url("../images/minus-icon.png");
+  background-image: url("./assets/minus-icon.png");
   transform: none;
 }
 
@@ -2466,21 +1854,21 @@ a {
 }
 
 .blog-top-header {
-  background: url("../images/blog-header.png"), var(--primary_color);
+  background: url("./assets/blog-header.png"), var(--primary_color);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
 }
 
 .faq-top-header {
-  background: url("../images/faq-header.png"), var(--primary_color);
+  background: url("./assets/faq-header.png"), var(--primary_color);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
 }
 
 .offer-top-header {
-  background: url("../images/offer-header.png"), #d9dbf1;
+  background: url("./assets/offer-header.png"), #d9dbf1;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
